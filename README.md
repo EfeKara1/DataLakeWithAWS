@@ -31,6 +31,7 @@ Prerequisites
     [AWS]
     AWS_ACCESS_KEY_ID = <your aws key>
     AWS_SECRET_ACCESS_KEY = <your aws secret>
+    """ Cfg file removed from repository because of security reasons. You can add your own. """
 
 Installation
 
@@ -47,16 +48,9 @@ Installation
 
        - pyspark
 
-    Alternatively you can install the requirements in the requirements.txt that's in this project by running the command:
-
-    $ pip install -r requirements.txt
-
-Terminal commands
-
-    Execute the ETL pipeline script by running:
-
-    $ python etl.py
-
+    Run a bash script with bash run.sh for start the .py file which includes the processing the batch data into data lake on aws.
+    
+    Additionally, you need to make aws configurations with your own. 
 Built With
 
     Python and pySpark
